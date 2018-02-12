@@ -1,3 +1,13 @@
 import React from "react"
 
-export default () => <div>Suze Cooper</div>
+import Soundplayer from '../components/Soundplayer';
+
+export default () =>
+<div>
+  <div>
+    <h1>Suze Cooper</h1>
+  </div>
+  <div>
+    <Soundplayer />
+  </div>
+</div>
