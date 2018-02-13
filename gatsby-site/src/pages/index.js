@@ -1,6 +1,7 @@
 import React from "react"
 
 import Soundplayer from '../components/Soundplayer';
+import Videoplayer from '../components/Videoplayer';
 
 export default () =>
 <div>
@@ -9,5 +10,8 @@ export default () =>
   </div>
   <div>
     <Soundplayer />
+  </div>
+  <div>
+    <Videoplayer />
   </div>
 </div>
