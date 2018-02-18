@@ -1,10 +1,12 @@
 import React from "react"
 
+import '../css/style.css';
+
 import Soundplayer from '../components/Soundplayer';
 import Videoplayer from '../components/Videoplayer';
 
 export default () =>
-<div>
+<container>
   <div>
     <h1>Suze Cooper</h1>
   </div>
@@ -14,4 +16,4 @@ export default () =>
   <div>
     <Videoplayer />
   </div>
-</div>
+</container>
