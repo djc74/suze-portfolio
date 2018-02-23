@@ -2,18 +2,30 @@ import React from "react"
 
 import '../css/style.css';
 
-import Soundplayer from '../components/Soundplayer';
+import Audioplayer from '../components/Audioplayer';
 import Videoplayer from '../components/Videoplayer';
 
 export default () =>
-<container>
+<div class="container">
   <div>
     <h1>Suze Cooper</h1>
   </div>
-  <div>
-    <Soundplayer />
+  <div class="audioplayer">
+    <Audioplayer />
   </div>
-  <div>
+  <div class="audioplayer">
+    <Audioplayer />
+  </div>
+  <div class="audioplayer">
+    <Audioplayer />
+  </div>
+  <div class="audioplayer">
+    <Audioplayer />
+  </div>
+  <div class="videoplayer">
     <Videoplayer />
   </div>
-</container>
+  <div class="videoplayer">
+    <Videoplayer />
+  </div>
+</div>

@@ -1,7 +1,11 @@
 html, body {
-  background: blue;
+  background: red;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto 100px);
+  grid-template-rows: 40px 40px 40px;
 }
 
-.container {
-  display: grid;
+.container > .audioplayer {
+  grid-column: 1 / 2;
 }
